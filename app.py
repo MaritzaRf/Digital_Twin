@@ -22,8 +22,8 @@ app.layout = dbc.Container(
     [
         dbc.Row([
             dbc.Col(area1, md=12, style={'background-color': 'white'}),
-            dbc.Col(area2, md=6, style={'background-color': 'white'}),  # Ajusta la altura según tus necesidades
-            dbc.Col(area3, md=6, style={'background-color': 'white'}),  # Ajusta la altura según tus necesidades
+            dbc.Col(area2, md=6, style={'background-color': 'white'}), 
+            dbc.Col(area3, md=6, style={'background-color': 'white'}), 
             dbc.Col(area4, md=6, style={'background-color': 'white'}),
             dbc.Col(area5, md=6, style={'background-color': 'white'})
         ])
