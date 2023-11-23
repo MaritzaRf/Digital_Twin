@@ -17,6 +17,8 @@ from frontend.area5 import area5
 # Crea la aplicación Dash
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 # Define el layout de la aplicación
 app.layout = dbc.Container(
     [
